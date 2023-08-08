@@ -39,7 +39,7 @@ function evoke(url: string) {
 }
 
 function evokeByLocation(uri: string): void {
-  window.location.href = uri;
+  window.location!.href = uri;
 }
 
 function evokeByTagA(uri: string): void {
